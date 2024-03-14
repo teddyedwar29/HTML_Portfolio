@@ -1,5 +1,67 @@
-.profile img {
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(245, 247, 249);
+}
+
+/* navbar */
+.navbar {
+    background-color: #fff;
+    margin-bottom: 50px;
+    height: 50px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.navbar a {
+    text-decoration: none;
+}
+
+
+/* akhir navbar */
+
+
+/* awal profile */
+.gambar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gambar img {
+    border-radius: 50%;
     width: 200px;
     height: 200px;
-    border-radius: 50%;
+    margin-bottom: 50px;
 }
+/* akhir profile */
+
+/* awal about */
+.about {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+/* akhir about */
+
+
+/* awal profile */
+.profile {
+    display: flex;
+    flex-direction: column;
+}
+
+/* akhir profile */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
