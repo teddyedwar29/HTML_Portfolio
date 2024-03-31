@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header h1 {
+  background-color: rgb(27, 27, 117);
+  color: white;
+  padding: 40px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+.navbar {
+  background-color: rgb(27, 27, 117);
+  padding: 4px;
+  margin-bottom: 10px;
+}
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.navbar ul li a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.content {
+  display: flex;
+  width: 90%;
+  margin: 20px auto;
+}
+
+.content .satu {
+  flex: 3;
+}
+.content .dua {
+  flex: 1;
+}
+
+.content section {
+  border: 1px solid blue;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.content aside {
+  margin-left: 20px;
+}
+
+.content aside p {
+  color: rgb(27, 27, 117);
+}
+
+/* footer */
+.footer {
+  background-color: rgb(27, 27, 117);
+}
+.footer footer {
+  padding: 12px;
+  color: white;
+}
